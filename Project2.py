@@ -29,6 +29,6 @@ start_time = time.time()
 merge_sequence, total_cost = merge_lists(list_sizes)
 end_time = time.time()
 
-print("Merge sequence:", merge_sequence[:1000000])  # Print the first 10 merge operations
+print("Merge sequence:", merge_sequence[:10])  # Print the first 10 merge operations
 print("Total cost:", total_cost)
 print("Execution time:", end_time - start_time, "seconds")
